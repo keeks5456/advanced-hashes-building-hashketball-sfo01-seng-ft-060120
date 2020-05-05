@@ -63,8 +63,8 @@ def game_hash
     },
     :away = {
       {
-      :team_name => "Brooklyn Nets" #team name String
-      :colors => ["black", "white"] # team color Array
+      :team_name => "Charlotte Hornets" #team name String
+      :colors => ["turquoise", "purple"] # team color Array
       :players => [
         {
           :player_name => "",
