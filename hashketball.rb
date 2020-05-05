@@ -61,9 +61,9 @@ def game_hash
         }
         ]#players Array of Hashes
     },
-    :away = {
-      :team_name => "Charlotte Hornets" #team name String
-      :colors => ["Turquoise", "Purple"] # team color Array
+    :away => {
+      :team_name => "Charlotte Hornets", #team name String
+      :colors => ["Turquoise", "Purple"], # team color Array
       :players => [
         {
           :player_name => "Jeff Adrien",
