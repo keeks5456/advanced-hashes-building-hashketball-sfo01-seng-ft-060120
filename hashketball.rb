@@ -1,5 +1,5 @@
 def game_hash
-  bball_hash = {
+  basketball_hash = {
     :home => {
       :team_name => "Brooklyn Nets" #team name String
       :colors => ["black", "white"] # team color Array
@@ -13,7 +13,7 @@ def game_hash
           :assists => 12,
           :steals => 3,
           :blocks => 1,
-          :slam_dunks => 1,
+          :slam_dunks => 1
         },
         {
           :player_name => "Reggie Evans",
@@ -24,7 +24,7 @@ def game_hash
           :assists => 12,
           :steals => 12,
           :blocks => 12,
-          :slam_dunks => 7,
+          :slam_dunks => 7
         },
         {
           :player_name => "Brook Lopez",
@@ -35,7 +35,7 @@ def game_hash
           :assists => 10,
           :steals => 3, 
           :blocks => 1, 
-          :slam_dunks => 15,
+          :slam_dunks => 15
         },
         {
           :player_name => "Mason Plumlee",
@@ -46,7 +46,7 @@ def game_hash
           :assists => 6,
           :steals => 3,
           :blocks => 8,
-          :slam_dunks => 5,
+          :slam_dunks => 5
         },
         {
           :player_name => "Jason Terry",
@@ -57,70 +57,70 @@ def game_hash
           :assists =>2, 
           :steals => 4, 
           :blocks => 11,
-          :slam_dunks => 1,
+          :slam_dunks => 1
         }
         ]#players Array of Hashes
     },
     :away = {
-      {
       :team_name => "Charlotte Hornets" #team name String
       :colors => ["Turquoise", "Purple"] # team color Array
       :players => [
         {
           :player_name => "Jeff Adrien",
-          :number => ,
-          :shoe => 
-          :points =>
-          :rebonds =>
-          :assists =>
-          :steals =>
-          :blocks => 
-          :slam_dunks =>
+          :number => 4,
+          :shoe => 18,
+          :points => 10, 
+          :rebonds => 1, 
+          :assists => 1, 
+          :steals => 2, 
+          :blocks => 7, 
+          :slam_dunks => 2
         },
         {
           :player_name => "Bismack Biymbo",
-          :number => ,
-          :shoe => 
-          :points =>
-          :rebonds =>
-          :assists =>
-          :steals =>
-          :blocks => 
-          :slam_dunks =>
+          :number => 0,
+          :shoe => 16,
+          :points => 12,
+          :rebonds => 4, 
+          :assists => 7, 
+          :steals => 22,
+          :blocks => 15, 
+          :slam_dunks => 10
         },
         {
           :player_name => "DeSanga Diop",
-          :number => ,
-          :shoe => 
-          :points =>
-          :rebonds =>
-          :assists =>
-          :steals =>
-          :blocks => 
-          :slam_dunks =>
+          :number => 2,
+          :shoe => 14, 
+          :points => 24,  
+          :rebonds => 12, 
+          :assists => 12, 
+          :steals => 4,
+          :blocks => 5,
+          :slam_dunks => 5
         },
         {
-          :player_name => "",
-          :number => ,
-          :shoe => 
-          :points =>
-          :rebonds =>
-          :assists =>
-          :steals =>
-          :blocks => 
-          :slam_dunks =>
+          :player_name => "Ben Gordon",
+          :number => 8,
+          :shoe => 15,
+          :points => 33,
+          :rebonds => 3,
+          :assists => 2,
+          :steals => 1,
+          :blocks => 1,
+          :slam_dunks => 0
         },
         {
-          :player_name => "",
-          :number => ,
-          :shoe => 
-          :points =>
-          :rebonds =>
-          :assists =>
-          :steals =>
-          :blocks => 
-          :slam_dunks =>
-        },
+          :player_name => "Kemba Walker",
+          :number => 33,
+          :shoe => 15,
+          :points => 6, 
+          :rebonds => 12,
+          :assists => 12,
+          :steals => 7,
+          :blocks => 5,
+          :slam_dunks => 12
+        }
+      ]
     }
   }
 end 
